@@ -1,0 +1,18 @@
+<!-- Preview image tags -->
+<meta name="og:image" content="https://previewify.app/i/4?url={{ this.page.url|app }}">
+<meta name="twitter:image" content="https://previewify.app/i/4?url={{ this.page.url|app }}">
+
+<!-- General tags -->
+<meta name="previewify:title" content="{{ __SELF__.getTitle() }}">
+<meta name="previewify:subtitle" content="{{ __SELF__.getSubtitle() }}">
+
+<!-- Optional tags -->
+<meta name="previewify:image" content="{{ __SELF__.property('previewifyImage') }}">
+
+<!-- Blog tags -->
+<meta name="previewify:reading_time" content="{{ __SELF__.property('previewifyReadingTime') }}">
+<meta name="previewify:category" content="{{ __SELF__.property('previewifyCategory') }}">
+
+<!-- Ecommerce tags -->
+<meta name="previewify:price" content="{{ __SELF__.property('previewifyPrice') }}">
+<meta name="previewify:from_price" content="{{ __SELF__.property('previewifyFromPrice') }}">
